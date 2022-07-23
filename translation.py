@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {}, I Am A Simple File To Video Convertor Bot</b>
+    START_TEXT = """ <b> Hi {}, I Am File To Video Convertor Bot</b>
 """
 
     BANNED_USER_TEXT = "You Are Banned" 
