@@ -36,21 +36,21 @@ from hachoir.parser import createParser
 from PIL import Image
 
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["c2v"]))
+@Mai_bOTs.on_message(pyrogram.filters.command(["video"]))
 async def convert_to_video(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, You are **B A N N E D**")
+               await update.reply_text("You Are Banned")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
+            #await update.reply_text(f"Join @{update_channel}")
             await update.reply_text(
-                text="**Please Join My Update Channel Before Using Me..**",
+                text="**Join Update Channel**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return  
