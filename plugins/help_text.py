@@ -64,7 +64,6 @@ async def help_user(bot, update):
                 ],
                 [
                     InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('Custom Caption', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('About', callback_data = "about")
@@ -187,14 +186,13 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('Custom Caption', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('About', callback_data = "about")
                 ]
             ]
         )
-    )      
+    )       
 
     elif data =="shw_caption":
              try:
