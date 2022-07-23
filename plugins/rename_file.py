@@ -36,7 +36,7 @@ from PIL import Image
 from database.database import *
 from database.db import *
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["scaption"]))
+@Mai_bOTs.on_message(pyrogram.filters.command(["yvcuoou9ucoouf"]))
 async def set_caption(bot, update):
     if len(update.command) == 1:
         await update.reply_text(
