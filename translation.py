@@ -8,7 +8,7 @@ class Translation(object):
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Task Completed</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Saved</b>"
     DEL_ETED_CUSTOM_THUMB_NAIL = "<b>Thumbnail Cleared Successfully</b>"
-    SAVED_RECVD_DOC_FILE = "<b>File Downloaded</b>"
+    SAVED_RECVD_DOC_FILE = "<b>Converting To Video...⏳</b>"
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply To File With /rename FileName.Mp4</b>"
     REPLY_TO_FILE_FOR_CONVERT = "<b>Reply To File With /video</b>"
     CUSTOM_CAPTION_UL_FILE = " "
