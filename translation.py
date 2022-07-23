@@ -18,5 +18,5 @@ class Translation(object):
     HELP_USER = """Help Section :"""
     RENAME_HELP = """Rename : \nJust Reply To Media With /rename FileName.Extension"""
     C2V_HELP = """File To Video : \nJust Reply To File With /video"""
-    THUMBNAIL_HELP = """Thumbnail : /nSend Image To Set Thumbnail \n/showthumb - Show Current Thumbnail \n/delthumb - Delete Thumbnail"""
+    THUMBNAIL_HELP = """Thumbnail : \nSend Image To Set Thumbnail \n/showthumb - Show Current Thumbnail \n/delthumb - Delete Thumbnail"""
     CCAPTION_HELP = """Caption : \n/scaption - Save Custom Caption \nUsage - /scaption Text \n[You Can Use <code>{filename}</code> For Showing New FileName In The Caption]"""
