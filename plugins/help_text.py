@@ -60,7 +60,6 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Rename', callback_data = "rnme"),
                     InlineKeyboardButton('File To Video', callback_data = "f2v")
                 ],
                 [
@@ -102,12 +101,7 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
-                ],
-                [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Channel', url='https://t.me/DevilBotz')
                 ]
             ]
         ),
@@ -126,7 +120,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close", callback_data = "close")
                 ]
             ]
         )
@@ -139,7 +133,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close", callback_data = "close")
                 ]
             ]
         )
@@ -156,7 +150,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton('🔒 Close', callback_data = "close")
+                    InlineKeyboardButton('Close', callback_data = "close")
                 ]
             ]
         )
@@ -169,7 +163,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close", callback_data = "close")
                 ]
             ]
         )
@@ -189,7 +183,6 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Rename', callback_data = "rnme"),
                     InlineKeyboardButton('File To Video', callback_data = "f2v")
                 ],
                 [
@@ -201,7 +194,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ]
             ]
         )
-    )       
+    )      
 
     elif data =="shw_caption":
              try:
